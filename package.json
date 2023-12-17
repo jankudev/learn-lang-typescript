@@ -1,0 +1,25 @@
+{
+  "name": "learning-katas-typescript",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest",
+    "test:watch": "vitest watch",
+    "test:cov": "vitest --coverage",
+    "lint": "eslint . --ext .ts"
+  },
+  "author": "Tomas Janku",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
+    "eslint": "^8.56.0",
+    "ts-mockito": "^2.6.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3",
+    "vitest": "^1.0.4"
+  }
+}
